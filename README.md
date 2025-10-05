@@ -1,38 +1,32 @@
-Task Manager Web Application
+# Django Task Manager
 
-📌 Overview
-
-This is a Django-based Task Management Application built with PostgreSQL.
+?? **Overview**  
+This is a Django-based Task Management Application built with PostgreSQL.  
 It includes:
 
-CRUD functionality for tasks (Create, Read, Update, Delete).
+- CRUD functionality for tasks (Create, Read, Update, Delete)  
+- Weather API integration (via OpenWeatherMap)  
+- Data visualization of task statistics using Chart.js  
+- Fully templated frontend using Django Templates + Bootstrap
 
-Weather API integration (via OpenWeatherMap).
+?? **Tech Stack**  
 
-Data visualization of task statistics using Chart.js.
+- **Backend:** Django (Python)  
+- **Database:** PostgreSQL (or alternative)  
+- **Frontend:** Django Templates, Bootstrap 5, Chart.js  
+- **API Integration:** OpenWeatherMap API  
 
-Fully templated frontend using Django Templates + Bootstrap.
+?? **Features**  
 
-⚙️ Tech Stack
+1. Create, view, update, and delete tasks  
+2. Track task status and progress  
+3. View visual statistics of tasks with charts  
+4. Fetch current weather information for task locations  
 
-Backend: Django (Python)
+?? **Setup Instructions**  
 
-Database: PostgreSQL (or Supabase alternative)
+1. Clone the repository:  
+`ash
+git clone <your-repo-url>
+cd Django_Task_Manager
 
-Frontend: Django Templates, Bootstrap 5, Chart.js
-
-API Integration: OpenWeatherMap API
-
-Deployment: Heroku / Render / Railway
-
-Version Control: Git + GitHub
-
-🚀 Features
-
-Manage tasks with title, description, and status.
-
-View live weather information for a selected city.
-
-Dashboard with visualization of completed vs pending tasks.
-
-Responsive UI with Bootstrap styling.
